@@ -16,7 +16,9 @@ namespace FolderImport
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            MainForm mf = new MainForm();
+            mf.LoadOptions();
+            Application.Run(mf);
         }
     }
 }

@@ -81,6 +81,7 @@
             this.btnInputFolderChoose.TabIndex = 0;
             this.btnInputFolderChoose.Text = "...";
             this.btnInputFolderChoose.UseVisualStyleBackColor = true;
+            this.btnInputFolderChoose.Click += new System.EventHandler(this.btnInputFolderChoose_Click);
             // 
             // btnOutputFolderChoose
             // 
@@ -90,6 +91,7 @@
             this.btnOutputFolderChoose.TabIndex = 1;
             this.btnOutputFolderChoose.Text = "...";
             this.btnOutputFolderChoose.UseVisualStyleBackColor = true;
+            this.btnOutputFolderChoose.Click += new System.EventHandler(this.btnOutputFolderChoose_Click);
             // 
             // btnTemplateFolderChoose
             // 
@@ -99,6 +101,7 @@
             this.btnTemplateFolderChoose.TabIndex = 2;
             this.btnTemplateFolderChoose.Text = "...";
             this.btnTemplateFolderChoose.UseVisualStyleBackColor = true;
+            this.btnTemplateFolderChoose.Click += new System.EventHandler(this.btnTemplateFolderChoose_Click);
             // 
             // btnStartImport
             // 
